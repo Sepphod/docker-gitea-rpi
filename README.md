@@ -6,13 +6,10 @@ This work is a fork of [kapdap/gitea-rpi](https://hub.docker.com/r/kapdap/gitea-
 ## Tags
 |Tag Style|Meaning|
 |--|--|
-|latest|Will always contain the newest image|
-|latest-x.x|Will contain the newest image limited to Gitea version x.x. Use this if you want to take security updates but no new features.|
-|stable|Will contain the newest stable image|
-|x.x.x-y|Contains image version y with Gitea version x.x.x.
+|latest|currently 1.11.5
 
 ## Usage
 ```bash
 docker volume create gitea_data
-docker run -d -p 22:22 -p 3000:3000 -v gitea_data:/data patrickthedev/gitea-rpi
+docker run -d -p 22:22 -p 3000:3000 -v gitea_data:/data sepphod/gitea-raspi
 ```
