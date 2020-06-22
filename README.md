@@ -6,7 +6,7 @@ This work is a fork of [kapdap/gitea-rpi](https://hub.docker.com/r/kapdap/gitea-
 ## Tags
 |Tag Style|Meaning|
 |--|--|
-|latest|currently 1.12.0
+|latest|currently 1.12.1
 
 ## Usage
 ```bash
