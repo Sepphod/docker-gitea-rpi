@@ -6,7 +6,7 @@ This work is a fork of [kapdap/gitea-rpi](https://hub.docker.com/r/kapdap/gitea-
 ## Tags
 |Tag Style|Meaning|
 |--|--|
-|latest|currently 1.13.1 
+|latest|currently 1.13.2
 
 ## comments 
 * In 1.13.1 the call of external renderers like plantuml doesn't work => rollback doesn't come easy as the downgrading of the database is not supported.
@@ -17,3 +17,4 @@ This work is a fork of [kapdap/gitea-rpi](https://hub.docker.com/r/kapdap/gitea-
 docker volume create gitea_data
 docker run -d -p 22:22 -p 3000:3000 -v gitea_data:/data sepphod/gitea-raspi
 ```
+Seppels
