@@ -17,4 +17,3 @@ This work is a fork of [kapdap/gitea-rpi](https://hub.docker.com/r/kapdap/gitea-
 docker volume create gitea_data
 docker run -d -p 22:22 -p 3000:3000 -v gitea_data:/data sepphod/gitea-raspi
 ```
-Seppels
