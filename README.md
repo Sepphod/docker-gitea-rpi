@@ -6,7 +6,7 @@ This work is a fork of [kapdap/gitea-rpi](https://hub.docker.com/r/kapdap/gitea-
 ## Tags
 |Tag Style|Meaning|
 |--|--|
-|latest|currently 1.13.2
+|latest|currently 1.13.3
 
 ## comments 
 * In 1.13.1 the call of external renderers like plantuml doesn't work => rollback doesn't come easy as the downgrading of the database is not supported.
